@@ -1,0 +1,3 @@
+voter_id,name,age,gender,booth_id,state,household_id,community_group,scheme_beneficiary,scheme_types,voting_history_index,party_affinity,is_migrant,phone,lat,lng,address,booth_turnout,constituency,booth_name,last_margin_pct
+UPABC0000001,Sunita Devi,46,F,UP-SAR-101,UP,UP-SAR-101-H0001,OBC (Non-Yadav),Yes,PM-KISAN;PMAY,0.8,neutral,No,+91 9000000001,29.1452,77.6140,"H.No. 12, Kaili",61.5,Sardhana,"Govt. School, Kaili",7.2
+UPABC0000002,Rahul Saini,24,M,UP-SAR-101,UP,UP-SAR-101-H0001,OBC (Non-Yadav),Yes,PM-KISAN,0.4,0.2,Yes,+91 9000000002,29.1452,77.6140,"H.No. 12, Kaili",61.5,Sardhana,"Govt. School, Kaili",7.2

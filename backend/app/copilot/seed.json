@@ -1,0 +1,113 @@
+{
+  "_note": "Synthetic sample corpus so JanVani Copilot works out of the box. Every figure here is invented; every citation says so. Delete these (Knowledge base → remove) before loading real constituency material.",
+  "documents": [
+    {
+      "title": "Sardhana block development budget note 2026-27",
+      "state": "UP", "constituency": "Sardhana", "doc_type": "budget", "topics": ["Infrastructure", "Agriculture"],
+      "published_on": "2026-04-12",
+      "source_citation": "SAMPLE: Sardhana Block Budget Note 2026-27 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Sardhana block received a total allocation of Rs 48.6 crore for 2026-27. Of this, Rs 14.2 crore was earmarked for rural roads and Rs 6.8 crore for drainage works in Kaili, Daurala and Jani Khurd. By September 2026 only Rs 5.1 crore of the road allocation had been spent, and 11 of 26 sanctioned road stretches had not started."},
+        {"page": 2, "text": "The minor irrigation head was allocated Rs 3.4 crore for 40 new tubewells and canal desilting. Desilting of the Daurala minor canal, sanctioned in 2025, remains incomplete; farmers along the canal report irrigation shortfalls in the rabi season. The drainage allocation for Jani Khurd lapsed last year because tenders were not finalised before March."}
+      ]
+    },
+    {
+      "title": "Assembly question on pending sugarcane dues, Sardhana",
+      "state": "UP", "constituency": "Sardhana", "doc_type": "legislative", "topics": ["Agriculture"],
+      "published_on": "2026-08-05",
+      "source_citation": "SAMPLE: Vidhan Sabha unstarred question no. 1123, 5 Aug 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Question: Will the Minister state the cane dues pending to farmers supplying the Daurala sugar mill? Reply: As of 31 July 2026, Rs 62 crore remained unpaid to 9,400 cane growers for the 2025-26 crushing season, against total purchases of Rs 410 crore. The mill has been directed to clear dues within 60 days. The state advised price for early variety cane was kept unchanged this season."}
+      ]
+    },
+    {
+      "title": "Waterlogging in Jani Khurd after monsoon, residents protest",
+      "state": "UP", "constituency": "Sardhana", "doc_type": "news", "topics": ["Infrastructure", "Welfare"],
+      "published_on": "2026-09-02",
+      "source_citation": "SAMPLE: Meerut local edition news report, 2 Sep 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Residents of Jani Khurd blocked the link road on Tuesday, saying drains overflow after every heavy rain. About 300 households in three wards were affected for a week. The primary health centre had to shift its OPD for four days. Residents said the drainage project announced two years ago has not begun, and children could not reach school on flooded lanes."}
+      ]
+    },
+    {
+      "title": "Ground survey: Sardhana voter priorities, October 2026",
+      "state": "UP", "constituency": "Sardhana", "doc_type": "survey", "topics": ["Agriculture", "Youth", "Welfare", "Infrastructure"],
+      "published_on": "2026-10-10",
+      "source_citation": "SAMPLE: Campaign ground survey, 1,250 respondents, Oct 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Survey of 1,250 respondents across 42 villages and wards of Sardhana. Among farmers, 68% named delayed cane payments as their top concern and 41% reported stray cattle damaging crops this season. Among respondents aged 18 to 29, 57% said lack of local jobs was the biggest problem and 33% said they plan to move to Delhi NCR for work."},
+        {"page": 2, "text": "Among women respondents, 46% cited unsafe or unlit roads after dark and 38% said ration delivery at the fair price shop was irregular. Among scheme beneficiaries, 29% said PM-KISAN instalments had stopped, most often because e-KYC was pending. 52% of respondents in Jani Khurd rated drainage as the most urgent civic problem."}
+      ]
+    },
+    {
+      "title": "Youth employment and skilling status, Sardhana",
+      "state": "UP", "constituency": "Sardhana", "doc_type": "legislative", "topics": ["Youth"],
+      "published_on": "2026-07-18",
+      "source_citation": "SAMPLE: Reply to assembly question no. 884 on ITI capacity, 18 Jul 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "The government ITI at Sardhana has 320 sanctioned seats against 1,100 applications this year. Two of six trade workshops lack instructors. A proposed skill centre at Daurala, announced in 2024, is still at the land identification stage. The district employment exchange registered 4,800 job seekers from the constituency and placed 260 in the last year."}
+      ]
+    },
+    {
+      "title": "Uttar Pradesh state party commitments (sample)",
+      "state": "UP", "scope": "state", "doc_type": "party_promise", "topics": ["Agriculture", "Youth", "Welfare", "Infrastructure"],
+      "source_citation": "SAMPLE: State party commitments document (synthetic placeholder, not a real party's manifesto)",
+      "pages": [
+        {"page": 1, "text": "We will set up a cane payment monitoring cell so that mill dues are cleared within 14 days of supply. We will expand gaushala capacity and fund fencing support to protect crops from stray cattle. We will open skill centres in every tehsil with industry-linked apprenticeships. We will install solar street lights on every village link road and audit fair price shops quarterly."}
+      ]
+    },
+    {
+      "title": "National party commitments (sample)",
+      "scope": "central", "doc_type": "party_promise", "topics": ["Welfare", "Youth", "Agriculture"],
+      "source_citation": "SAMPLE: National party commitments document (synthetic placeholder, not a real party's manifesto)",
+      "pages": [
+        {"page": 1, "text": "We will run doorstep camps to complete e-KYC so that no eligible farmer misses an income-support instalment. We will expand apprenticeship stipends for young people in small towns. We will strengthen women's self-help groups with credit linkage and market access."}
+      ]
+    },
+    {
+      "title": "Ground survey: Margao ward issues, September 2026",
+      "state": "GA", "constituency": "Margao", "doc_type": "survey", "topics": ["Infrastructure", "Youth", "Welfare"],
+      "published_on": "2026-09-20",
+      "source_citation": "SAMPLE: Campaign ward survey, 640 respondents, Sep 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Survey of 640 respondents across Margao wards. 61% reported irregular piped water supply in summer and 44% said garbage collection is missed at least once a week. Among respondents under 30, 49% said they expect to seek work outside Goa or abroad. 35% of fishing households said support during the monsoon fishing ban arrived late."}
+      ]
+    },
+    {
+      "title": "Margao municipal works allocation 2026-27",
+      "state": "GA", "constituency": "Margao", "doc_type": "budget", "topics": ["Infrastructure"],
+      "published_on": "2026-05-02",
+      "source_citation": "SAMPLE: Margao municipal budget extract 2026-27 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "The council allocated Rs 9.5 crore for water pipeline replacement and Rs 4.2 crore for solid waste management. The pipeline replacement in Aquem and Borda wards was 30% complete by August. A new sewage treatment connection for Fatorda remains pending for want of environmental clearance."}
+      ]
+    },
+    {
+      "title": "Sangrur mandi procurement delays reported",
+      "state": "PB", "constituency": "Sangrur", "doc_type": "news", "topics": ["Agriculture"],
+      "published_on": "2026-10-18",
+      "source_citation": "SAMPLE: Regional news report, 18 Oct 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Farmers at Sangrur grain market said paddy lifting was slow, with heaps waiting up to six days. Arhtiyas reported that 22% of arrivals had not been lifted by the end of the week. Farmers also raised concerns about moisture deductions and late payments."}
+      ]
+    },
+    {
+      "title": "Ground survey: Sangrur priorities, October 2026",
+      "state": "PB", "constituency": "Sangrur", "doc_type": "survey", "topics": ["Agriculture", "Youth", "Welfare"],
+      "published_on": "2026-10-12",
+      "source_citation": "SAMPLE: Campaign ground survey, 900 respondents, Oct 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Among 900 respondents, 63% of farmers named falling groundwater and power for tubewells as a top concern. 48% of families with young members said drug abuse in the village worries them. 37% of households have at least one member working abroad. Among women, 41% asked for a nearer health centre with a lady doctor."}
+      ]
+    },
+    {
+      "title": "Ground survey: Pauri hill villages, October 2026",
+      "state": "UK", "constituency": "Pauri", "doc_type": "survey", "topics": ["Infrastructure", "Youth", "Welfare"],
+      "published_on": "2026-10-08",
+      "source_citation": "SAMPLE: Campaign ground survey, 720 respondents, Oct 2026 (synthetic, not real data)",
+      "pages": [
+        {"page": 1, "text": "Among 720 respondents in Pauri hill villages, 58% said the nearest health centre is more than an hour away and 46% reported road blockages during the monsoon. 52% of households have a young member who has migrated for work. Among farmers, 39% reported crop damage from wild animals."}
+      ]
+    }
+  ]
+}

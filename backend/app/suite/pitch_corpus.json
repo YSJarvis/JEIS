@@ -1,0 +1,61 @@
+{
+  "_note": "Extra synthetic documents loaded only into the pitch-demo workspace. Every figure is invented and every citation says SAMPLE. They never reach the real workspace.",
+  "documents": [
+    {
+      "title": "Punjab state party commitments (sample)",
+      "state": "PB", "scope": "state", "doc_type": "party_promise",
+      "topics": ["Agriculture", "Youth", "Welfare", "Infrastructure"],
+      "source_citation": "SAMPLE: Punjab state party commitments (synthetic placeholder, not a real party's manifesto)",
+      "pages": [{"page": 1, "text": "We will lift paddy from every mandi within 72 hours of arrival and pay farmers within 48 hours of lifting. We will open a drug de-addiction and counselling centre in every district hospital with outreach in villages. We will set up an e-procurement helpline that tracks every farmer's payment by SMS. We will repair rural link roads before the wheat season."}]
+    },
+    {
+      "title": "Uttarakhand state party commitments (sample)",
+      "state": "UK", "scope": "state", "doc_type": "party_promise",
+      "topics": ["Infrastructure", "Welfare", "Youth"],
+      "source_citation": "SAMPLE: Uttarakhand state party commitments (synthetic placeholder, not a real party's manifesto)",
+      "pages": [{"page": 1, "text": "We will station a JCB and repair crew on every monsoon-prone road stretch so that blocked roads reopen within 24 hours. We will run a mobile health van to every hill village twice a month and fill doctor posts at community health centres. We will start homestay and tourism skilling so that young people can earn without migrating."}]
+    },
+    {
+      "title": "Goa state party commitments (sample)",
+      "state": "GA", "scope": "state", "doc_type": "party_promise",
+      "topics": ["Infrastructure", "Youth", "Welfare"],
+      "source_citation": "SAMPLE: Goa state party commitments (synthetic placeholder, not a real party's manifesto)",
+      "pages": [{"page": 1, "text": "We will complete the Margao pipeline replacement and publish a ward-wise water supply timetable. We will run tanker supply on a fixed public schedule until the pipeline is finished. We will create local jobs through a Salcete skilling hub linked to tourism and shipping employers."}]
+    },
+    {
+      "title": "Sangrur district procurement status note",
+      "state": "PB", "constituency": "Sangrur", "doc_type": "legislative",
+      "topics": ["Agriculture"], "published_on": "2026-10-20",
+      "source_citation": "SAMPLE: District procurement status note, Sangrur, Oct 2026 (synthetic, not real data)",
+      "pages": [{"page": 1, "text": "Of 4.2 lakh tonnes of paddy that arrived in Sangrur mandis by 20 October, 2.9 lakh tonnes had been lifted. Payments of Rs 310 crore were still pending to farmers. The district has directed procurement agencies to add 40 trucks for lifting."}]
+    },
+    {
+      "title": "Sangrur youth and de-addiction survey",
+      "state": "PB", "constituency": "Sangrur", "doc_type": "survey",
+      "topics": ["Youth", "Welfare"], "published_on": "2026-10-12",
+      "source_citation": "SAMPLE: Campaign youth survey, 640 respondents, Oct 2026 (synthetic, not real data)",
+      "pages": [{"page": 1, "text": "Among 640 young respondents in Sangrur, 44% named drug abuse as the biggest problem in their village and 37% said lack of local jobs. Only 1 de-addiction centre operates in the constituency, with 30 beds."}]
+    },
+    {
+      "title": "Pauri road and health works status",
+      "state": "UK", "constituency": "Pauri", "doc_type": "budget",
+      "topics": ["Infrastructure", "Welfare"], "published_on": "2026-10-05",
+      "source_citation": "SAMPLE: District works status, Pauri, 2026-27 (synthetic, not real data)",
+      "pages": [{"page": 1, "text": "Rs 38 crore was allocated for monsoon road restoration in Pauri in 2026-27, of which Rs 14 crore had been spent by September. 9 of 21 monsoon-damaged road stretches have not been repaired. The community health centre at Kot has 2 of 6 doctor posts filled. The district has sanctioned a mobile health van for hill villages."}]
+    },
+    {
+      "title": "Margao water supply complaints, local news",
+      "state": "GA", "constituency": "Margao", "doc_type": "news",
+      "topics": ["Infrastructure"], "published_on": "2026-10-18",
+      "source_citation": "SAMPLE: Regional news report, Salcete, Oct 2026 (synthetic, not real data)",
+      "pages": [{"page": 1, "text": "Residents of Aquem and Borda wards in Margao said piped water supply has been irregular for three weeks. The pipeline replacement project is 30% complete against a March deadline. The council has directed tankers to serve the worst-affected wards daily."}]
+    },
+    {
+      "title": "Meerut Cantt power supply and roads note",
+      "state": "UP", "constituency": "Meerut Cantt", "doc_type": "legislative",
+      "topics": ["Infrastructure", "Agriculture"], "published_on": "2026-10-16",
+      "source_citation": "SAMPLE: Reply to assembly question on rural power supply, Meerut, Oct 2026 (synthetic, not real data)",
+      "pages": [{"page": 1, "text": "Villages in the Meerut Cantt and Sardhana areas received an average of 16 hours of power a day in September against a target of 20 hours. Tubewell feeders recorded 6 hours of daily cuts. The department has sanctioned 3 new feeders for rural areas."}]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_comment": "Shape a PDF roll parser should emit. Part-level fields are copied onto each elector.",
+  "state": "GA",
+  "ac_name": "Margao",
+  "parts": [
+    {"part_no": 7, "polling_station": "Govt. Primary School, Aquem",
+     "electors": [
+       {"serial_no": 1, "epic_no": "GAM0000001", "name": "Maria Fernandes", "relation_type": "H", "relation_name": "Joseph Fernandes", "age": 52, "gender": "F", "house_no": "3"},
+       {"serial_no": 2, "epic_no": "GAM0000003", "name": "Joseph Fernandes", "relation_type": "F", "relation_name": "Anthony Fernandes", "age": 56, "gender": "M", "house_no": "3"}
+     ]},
+    {"part_no": 8, "polling_station": "Govt. High School, Borda",
+     "electors": [
+       {"serial_no": 1, "epic_no": "GAM0000002", "name": "Rohan Naik", "relation_type": "F", "relation_name": "Anant Naik", "age": 29, "gender": "M", "house_no": "14B"}
+     ]}
+  ]
+}

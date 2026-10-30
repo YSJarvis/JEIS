@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Tokens. Accent is the violet of indelible election ink; quadrant colours are
+   deliberately party-neutral. Paper is a cool grey-green, not cream. */
+@theme {
+  --color-paper: #F2F3F0;
+  --color-panel: #FFFFFF;
+  --color-line: #DCDDE3;
+  --color-ink: #1D1A2E;
+  --color-ink-2: #4A4659;
+  --color-ink-3: #7C7889;
+  --color-violet: #5B2E91;
+  --color-violet-soft: #EEE7F7;
+  --color-gotv: #0F766E;
+  --color-gotv-soft: #E1F2EF;
+  --color-amber: #A1620C;
+
+  --font-sans: var(--font-anek), "Anek Latin", "Segoe UI", system-ui, sans-serif;
+  --text-display: 2.75rem;
+  --text-display--line-height: 1;
+}
+
+@layer base {
+  html { background: var(--color-paper); color: var(--color-ink); }
+  body { font-family: var(--font-sans); font-feature-settings: "tnum" 1; -webkit-font-smoothing: antialiased; }
+  :focus-visible { outline: 2px solid var(--color-violet); outline-offset: 2px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+}
+
+/* Anek's width axis is the type device: wide for place names, condensed for figures. */
+@utility wide { font-stretch: 125%; }
+@utility narrow { font-stretch: 80%; }
+
+.leaflet-container { font-family: var(--font-sans); background: #E7E9E4; }
+
+/* Printing a Copilot draft: only the document is printed (the browser shapes Hindi/Punjabi correctly). */
+@media print {
+  body * { visibility: hidden !important; }
+  .print-area, .print-area * { visibility: visible !important; }
+  .print-area { position: absolute; inset: 0 auto auto 0; width: 100%; border: 0 !important; box-shadow: none !important; }
+  .no-print { display: none !important; }
+  html, body { background: #fff !important; }
+}
