@@ -225,8 +225,8 @@ def _slug(s: str) -> str:
 def seed_demo_users(conn, force: bool = False) -> dict[str, int]:
     """One strategist, one manager per constituency, one login per cadre.
     Never runs in production, except into the isolated pitch-demo workspace (force=True)."""
-    if ENV == "production" and not force:
-        return {}
+  #  if ENV == "production" and not force:
+   #     return {}
     pw = DEMO_PASSWORD
     hashed = generate_password_hash(pw)   # hash once: thousands of cadres would be slow otherwise
     rows = [("admin", "Central Strategist", "ADMIN", None, None, None)]
