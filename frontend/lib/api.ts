@@ -5,7 +5,7 @@ import type {
   ScoringJob, Session, StateWeights, SyncOp, SyncResult, VoterRow,
 } from "./types";
 
-const BASE = process.env.NEXT_PUBLIC_API_BASE ?? "";
+const BASE = process.env.NEXT_PUBLIC_API_BASE || process.env.NEXT_PUBLIC_API_BASE_URL || "https://jeis.onrender.com";
 
 /** Thrown when the request never reached the server (offline, DNS, timeout). */
 export class NetworkError extends Error {}
