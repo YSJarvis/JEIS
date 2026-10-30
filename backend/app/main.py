@@ -1679,13 +1679,14 @@ def executive_briefing():
 def ensure_seeded():
     with db.session() as c:
         db.init_schema(c)
-        if c.execute("SELECT COUNT(*) FROM voters").fetchone()[0] == 0 and ENV == "production":
-            print("Production: empty database. Create logins with `python -m scripts.create_user` and import rolls; "
-                  "no synthetic data is generated.")
-            return
+     #   if c.execute("SELECT COUNT(*) FROM voters").fetchone()[0] == 0 and ENV == "production":
+      #      print("Production: empty database. Create logins with `python -m scripts.create_user` and import rolls; "
+       #           "no synthetic data is generated.")
+        #    return
         if c.execute("SELECT COUNT(*) FROM voters").fetchone()[0] == 0:
             print("Empty database — generating mock data and demo logins…")
             print(json.dumps(seed_database(c)))
+            print(json.dumps(auth.seed_demo_users(c, force=True)))
         elif c.execute("SELECT COUNT(*) FROM users").fetchone()[0] == 0:
             print(json.dumps(auth.seed_demo_users(c)))   # upgraded v1 database: add logins, re-score
             run_scoring(c)
