@@ -46,7 +46,7 @@ from .llm import provider_status
 app = Flask(__name__)
 app.json.sort_keys = False        # keep state / consent / feature order as defined in config
 app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024   # 50 MB imports
-PUBLIC = {"health", "login", "logout", "demo_status", "demo_exit"}
+PUBLIC = {"health", "login", "logout", "demo_status", "demo_exit","setup"}
 DEMO_COOKIE, MAIN_TOKEN_COOKIE = "ve_demo", "ve_token_main"
 _PITCH_LOCK = threading.Lock()
 
@@ -153,6 +153,17 @@ def _clear_cookie(resp):
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
+  
+@app.get("/api/setup")
+def run_setup():
+    with db.session() as c:
+        mock_res = seed_database(c)
+        user_res = auth.seed_demo_users(c, force=True)
+        run_scoring(c)
+        knowledge.seed_knowledge(c)
+        cp_kb.seed_corpus(c)
+        wr_seed.seed_feed(c)
+    return {"status": "seeded", "users": user_res, "mock": mock_res}
 
 
 @app.post("/api/auth/login")
