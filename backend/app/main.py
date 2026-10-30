@@ -86,7 +86,7 @@ def _close(_exc):
 
 @app.after_request
 def _headers(resp):
-    resp.headers["Access-Control-Allow-Origin"] = CORS_ORIGIN
+    resp.headers["Access-Control-Allow-Origin"] = request.headers.get("Origin", "*")
     resp.headers["Access-Control-Allow-Credentials"] = "true"
     resp.headers["Access-Control-Allow-Headers"] = f"Content-Type, Authorization, {CSRF_HEADER[0]}"
     resp.headers["Access-Control-Allow-Methods"] = "GET, POST, PATCH, DELETE, OPTIONS"
