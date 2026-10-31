@@ -146,9 +146,8 @@ def masking() -> bool:
 # ---------------- auth ----------------
 
 def _clear_cookie(resp):
-    resp.delete_cookie(AUTH_COOKIE, path="/", samesite="Lax")
+    resp.delete_cookie(AUTH_COOKIE, path="/", samesite="None", secure=True)
     return resp
-
 
 @app.get("/api/health")
 def health():
@@ -186,8 +185,8 @@ def login():
     if body.get("issue_bearer"):          # native clients; the web app relies on the HTTP-only cookie
         payload["token"] = token
     resp = make_response(jsonify(payload))
-    resp.set_cookie(AUTH_COOKIE, token, max_age=JWT_TTL_HOURS * 3600, httponly=True, secure=COOKIE_SECURE,
-                    samesite="Lax", path="/")
+    resp.set_cookie(AUTH_COOKIE, token, max_age=JWT_TTL_HOURS * 3600, httponly=True, secure=True,
+                samesite="None", path="/")
     return resp
 
 
