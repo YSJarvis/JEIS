@@ -132,7 +132,7 @@ JWT_SECRET = os.environ.get("VOTERENGINE_JWT_SECRET", _DEV_SECRET)
 JWT_ALGORITHM = "HS256"
 JWT_TTL_HOURS = int(os.environ.get("VOTERENGINE_JWT_TTL_HOURS", 12))
 AUTH_COOKIE = "ve_token"
-COOKIE_SECURE = os.environ.get("VOTERENGINE_COOKIE_SECURE", "0" if ENV != "production" else "1") == "1"
+COOKIE_SECURE = os.environ.get("VOTERENGINE_COOKIE_SECURE", "1" if ENV != "production" else "0") == "1"
 CSRF_HEADER = ("X-Requested-With", "VoterEngine")   # required on cookie-authenticated writes
 CORS_ORIGIN = os.environ.get("CORS_ORIGIN", "http://localhost:3000")
 TIMEZONE = os.environ.get("VOTERENGINE_TZ", "Asia/Kolkata")  # defines "today" for cadre routes
